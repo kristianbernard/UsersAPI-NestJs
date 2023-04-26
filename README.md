@@ -19,9 +19,11 @@
      GET /users/${id}
 ```
 
+
 | Parameter | Type | Description |
-| :---------- | :-------- | :------------------------------------------------- ----- |
+| :---------- | :-------- | :--------------------------------- |
 | `id` | `chain` | **Mandatory**. The ID of the item you want |
+ 
 
 #### Returns the user's avatar
 3rd- GET request that has the user ID as a parameter, but unlike the previous request, it is accompanied by ":id/avatar", which will bring only the user's avatar.
