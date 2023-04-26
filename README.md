@@ -31,9 +31,11 @@
      GET /users/${id}/avatar
 ```
 
+
 | Parameter | Type | Description |
-| :---------- | :-------- | :------------------------------------------------- ----- |
+| :---------- | :-------- | :--------------------------------- |
 | `id` | `chain` | **Mandatory**. The ID of the item you want |
+ 
 
 #### Delete user avatar
 4º- A DELETE request that also has the user ID as a parameter, and is accompanied by ":id/avatar", but unlike the previous request, it will delete the user's avatar.
@@ -41,10 +43,11 @@
      DELETE /users/${id}/avatar
 ```
 
-| Parameter | Type | Description |
-| :---------- | :-------- | :------------------------------------------------- ----- |
-| `id` | `chain` | **Mandatory**. The ID of the item you want |
 
+| Parameter | Type | Description |
+| :---------- | :-------- | :--------------------------------- |
+| `id` | `chain` | **Mandatory**. The ID of the item you want |
+ 
 
 ## MongoDB database access
 
